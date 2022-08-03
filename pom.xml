@@ -127,13 +127,13 @@
 				<artifactId>maven-project-info-reports-plugin</artifactId>
 				<version>3.0.0</version>
 			</plugin>
-			<plugin>
+			<!--<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>3.1.2</version>
-				<!--configuration>
+				configuration>
 					<configLocation>checkstyle_checks.xml</configLocation>
-				</configuration -->
+				</configuration 
 				<executions>
 					<execution>
 						<goals>
@@ -141,7 +141,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 
